@@ -1,0 +1,23 @@
+{
+	"name": "SOLA BYPASSER",
+	"version": "1.0",
+	"manifest_version": 3,
+	"description": "YOU WON'T HAVE TO CLICK THE BUTTON ANYMORE",
+	"permissions": [
+		"tabs",
+		"activeTab"
+	],
+	"content_scripts": [{
+		"matches": [
+			"https://sola.sfc.keio.ac.jp/student/student/student_management/classrooms/*"
+		],
+		"js": [
+			"contentScript.js"
+		]
+	}]
+    
+}
+
+
+}
+
