@@ -14,10 +14,11 @@
 		"js": [
 			"contentScript.js"
 		]
-	}]
-    
-}
+	}],
 
+    "icons": {
+        "128": "icon_sola.png"
+    }
 
 }
 
